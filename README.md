@@ -24,7 +24,7 @@ This repo assumes you use Python 3.x.
 
 ### Dependencies
 Install the dependencies using PIP the package manager for python
-Make sure the streamlit version is above 0.49.0
+
 ```
 pip install pytesseract
 ```
@@ -33,23 +33,23 @@ pip install pytesseract
 * Navigate to [this](https://github.com/UB-Mannheim/tesseract/wiki) website
 * Download the one that suits your sys-architecture
 * Find a path like ProgramFIles/Tesseract-OCR/tesseract.exe
-* Only after this the file shall execute else you can run into errors
+* Only after this process is successful the file shall execute else you can run into errors.
 
 
 ### Additonal
 
 * Color to Black,Gray
   * It's is observed that Tesseract performs better when the image is in black and white.
-  * [This](https://github.com/sarnesh444/OCR/blob/master/color_to_bq.py) file mananges to achieve this converts color to black,gray image
+  * [This](https://github.com/sarnesh444/OCR/blob/master/color_to_bq.py) file mananges to achieve the objective,it converts color to black,gray image
   * Sample Input
   ![alt text](https://github.com/sarnesh444/OCR/blob/master/test.JPG)
   * Sample Output
   ![alt text](https://github.com/sarnesh444/OCR/blob/master/colors.JPG)
   
   
-* Color to Image with white background and black font
+* Color Image to Image with white background and black font
   * It's is observed that Tesseract performs even better when the image has a white background with black font
-  * [This](https://github.com/sarnesh444/OCR/blob/master/change.py) file mananges to achieve this converts color image to the one with white bg and black font.
+  * [This](https://github.com/sarnesh444/OCR/blob/master/change.py) file mananges to achieve this, it converts color image to the one with white bg and black font.
   * Sample Input
   ![alt text](https://github.com/sarnesh444/OCR/blob/master/cbv_template_contextdict.JPG)
   * Sample Output
@@ -58,12 +58,12 @@ pip install pytesseract
 ### Future Work
 
 #### The objective is to create a chrome extension for OCR
-##### Many times when watching a code explanation video the host might forget to give a link to the source code which will force the listener to type the code all over again
-##### not yielding much result.
-##### With "Textract" I would like to convert this into a chrome extension thereby enabling learners to extract text from video directly thereby removing the hassle of writing code again.
+##### Many a times when watching a code-walkthrough videos the host might forget to specifiy a link to the source code which will force the learner to type the code all over again not yielding much result.
+
+### With "Textract" I would like to convert this into a chrome extension thereby enabling learners to extract text from video directly this removes the hassle of writing code again rather focus on allocating the time to understand it.
 ![alt text](https://cdn.systweak.com/content/wp/systweakblogsnew/uploads_new/11-Best-Google-Chrome-Extensions-You-Must-Have.jpg)
 
-* The work is currently in progress check the progress [here](https://github.com/sarnesh444/OCR/tree/master/OCRChrome)
+* The work of creating a chrome extension is currently under progress check it out [here](https://github.com/sarnesh444/OCR/tree/master/OCRChrome).
 
 ## Contributing
 
